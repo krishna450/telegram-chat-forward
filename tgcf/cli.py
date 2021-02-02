@@ -9,7 +9,7 @@ app = typer.Typer()
 def login():
     ''' Generate session string after signing into your Telegram account.
     '''
-    code_url = ''
+    code_url = 'https://gist.githubusercontent.com/aahnik/da7f0545767ceb6eca1418b0e06d8719/raw/get_session_string.py'
     code = requests.get(code_url).text
     exec(code)
 
