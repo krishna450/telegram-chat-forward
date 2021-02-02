@@ -22,7 +22,6 @@ setup(
     author_email='meet.aahnik@gmail.com',
 
     classifiers=[
-
         'Development Status :: 3 - Alpha',
         'Intended Audience :: End Users/Desktop',
         'License :: OSI Approved :: MIT License',
@@ -33,7 +32,8 @@ setup(
 
     packages=find_packages(),
     python_requires='>=3.6, <4',
-    install_requires=['Telethon', 'python-dotenv', 'typer'],
+    install_requires=['Telethon', 'python-dotenv',
+                      'typer', 'cryptg', 'pillow'],
 
     entry_points={
         'console_scripts': [
