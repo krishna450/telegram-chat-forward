@@ -7,7 +7,7 @@ from telethon.tl.patched import MessageService
 from telethon.errors.rpcerrorlist import FloodWaitError
 from telethon import TelegramClient
 from telethon.sessions import StringSession
-from settings import API_ID, API_HASH, forwards, get_forward, update_offset, STRING_SESSION
+from tgcf.settings import API_ID, API_HASH, forwards, get_forward, update_offset, STRING_SESSION
 
 
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',

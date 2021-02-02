@@ -1,17 +1,23 @@
 # telegram-chat-forward
 
-[![telegram-chat](https://img.shields.io/badge/chat-@aahnikdaw-blue?logo=telegram)](https://telegram.me/aahnikdaw)
+This branch is not yet developed. I am currently busy with other stuff, and you have to wait for few weeks if you are looking for new features.
+
+Star the repo and click on "Watch" to recieve notifications on updates.
+
+Note: The new version will introduce breaking changes.
+
+<!-- [![telegram-chat](https://img.shields.io/badge/chat-@aahnikdaw-blue?logo=telegram)](https://telegram.me/aahnikdaw)
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 [![MIT license](https://img.shields.io/pypi/l/ansicolortags.svg)](https://aahnik.github.io/)
 
-A simple script to forward all the messages of one chat (indivisual/group/channel) to another. Made using Telethon. Can be used to back up the contents of a chat to another place.
+A simple script to forward all the messages of one chat (indivisual/group/channel) to another. Made using Telethon. Can be used to back up the contents of a chat to another place. -->
 
-## Signing in
+<!-- ## Signing in
 
 First of all you need to have your Telegram account's `api_id` and `api_hash`.
-Learn [how to get](https://docs.telethon.dev/en/latest/basic/signing-in.html) them.
+Learn [how to get](https://docs.telethon.dev/en/latest/basic/signing-in.html) them. -->
 
-## Installation
+<!-- ## Installation
 
 - Clone this repo and move into it to get started.
 
@@ -30,12 +36,12 @@ pip3 install -r requirements.txt
 
 ## Setup
 
-You must have the `api_id` and `api_hash` as environment variables.
+You must have the `API_ID` and `API_HASH` as environment variables.
 You may simply create a file named `.env` in the project directory and paste the following into it.
 
 ```shell
-api_id=12345
-api_hash=kjfjfk9r9JOIJOIjoijf9wr0w
+API_ID=12345
+API_HASH=kjfjfk9r9JOIJOIjoijf9wr0w
 ```
 
 **Replace the above values with the actual values for your telegram account.**
@@ -85,5 +91,7 @@ You have to login for the first time using your phone number (inter-national for
 A session file called `forwarder.session` will be generated. **Please don't delete this and make sure to keep this file secret.**
 
 Feel free to ask your questions in the [Discussion section](https://github.com/aahnik/telegram-chat-forward/discussions). For bugs and feature requests use the [issues](https://github.com/aahnik/telegram-chat-forward/issues/new) section of this repo.
+
+ -->
 
 [![promoted](https://raw.githubusercontent.com/aahnik/aahnik/master/promoted/general.gif)](https://aahnik.github.io/aahnik/promoted/general.html)
